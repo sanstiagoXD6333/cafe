@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes (FAQs)</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Puedes enlazar a un archivo CSS para estilos -->
+</head>
+<body>
+
+    <header>
+        <h1 style="color: white;"> Camellia </h1>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="productos.html">Productos</a></li>
+                  <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                  <li><a href="testimonios.html">Testimonios</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="faqs.html">FAQs</a></li>
+                  <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                  <li><a href="terminos-condicional.html">Términos y Condiciones</a></li>
+              </ul>
+          </nav>
+      </header>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            color: #240f00;
+        }
+        .faq {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .faq h2 {
+            cursor: pointer;
+            color: #240f00;
+        }
+        .respuesta {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function toggleRespuesta(element) {
+            const respuesta = element.nextElementSibling;
+            respuesta.style.display = respuesta.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Preguntas Frecuentes (FAQs)</h1>
+
+    <div class="faq">
+        <h2 onclick="toggleRespuesta(this)">¿Cuál es el tiempo de entrega de los pedidos?</h2>
+        <div class="respuesta">
+            <p>El tiempo de entrega varía según la ubicación, pero generalmente, los pedidos se envían dentro de 3 a 5 días hábiles.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2 onclick="toggleRespuesta(this)">¿Qué métodos de pago aceptan?</h2>
+        <div class="respuesta">
+            <p>Aceptamos tarjetas de crédito, PayPal y transferencias bancarias. Puedes elegir tu método de pago preferido al finalizar la compra.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2 onclick="toggleRespuesta(this)">¿Puedo devolver un producto?</h2>
+        <div class="respuesta">
+            <p>Sí, puedes devolver un producto dentro de los 30 días siguientes a la recepción, siempre que esté en su estado original y sin usar.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2 onclick="toggleRespuesta(this)">¿Cómo puedo contactar con el servicio al cliente?</h2>
+        <div class="respuesta">
+            <p>Puedes contactarnos a través de nuestro formulario de contacto en la página de contacto o enviarnos un correo electrónico a [tu correo electrónico].</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2 onclick="toggleRespuesta(this)">¿Tienen una política de privacidad?</h2>
+        <div class="respuesta">
+            <p>Sí, valoramos tu privacidad. Puedes consultar nuestra política de privacidad en el enlace correspondiente en el pie de página.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;Síguenos en instagram @camelliahouseofcoffe</p>
+        <p>&copy; Derechos reservados para camellia</p>
+    </footer>
+
+</body>
+</html>

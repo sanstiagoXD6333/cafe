@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #240f00; /* Color marrón */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #240f00; /* Color marrón */
+}
+
+/* Estilos para los productos */
+.producto {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto h3 {
+    margin: 0 0 10px;
+}
+
+.producto p {
+    margin: 10px 0;
+}
+
+.boton-comprar {
+    background: #240f00; /* Color marrón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.boton-comprar:hover {
+    background: #240f00; /* Color marrón más claro */
+}
+
+/* Estilos para el carrito */
+#carrito {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    margin: 5px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #240f00; /* Color marrón */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el botón de música */
+#toggle-music {
+    background: #240f00; /* Color marrón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#toggle-music:hover {
+    background: #240f00; /* Color marrón más claro */
+}

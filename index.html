@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camellia - Tienda de Café en Línea</title>
+
+    <!-- Enlazar el archivo de Google Analytics -->
+    <script src="analytics.js"></script>
+    <script src="scripts.js" defer></script> <!-- Enlazamos el archivo de scripts -->
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 style="color: white;"> Camellia </h1>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="productos.html">Productos</a></li>
+                  <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                  <li><a href="testimonios.html">Testimonios</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="faqs.html">FAQs</a></li>
+                  <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                  <li><a href="terminos-condicional.html">Términos y Condiciones</a></li>
+              </ul>
+          </nav>
+      </header>
+
+    <main>
+     <h2>Productos destacados
+        </h2>
+
+        <div class="producto" data-nombre="Café Tabi" data-precio="35.000">
+            <h2>Café Tabi</h2>
+            <img src="https://i.pinimg.com/474x/35/8c/30/358c30fbb99cf0d2b938e00367c1aef4.jpg" alt"Tabi" width="300" height="400">
+            <p>Café con proceso natural y con gusto pronunciado, ideal para comenzar el día.</p>
+            <h2><p class="precio">35.000 COP</p></h2>
+            <button class="boton-comprar">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto" data-nombre="Set de filtrado v60" data-precio="120.000">
+            <h3>Set de filtrado v60</h3>
+            <img src="data:image/jpeg;base64,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" alt="set de filtrado v60" width="300" heigth="300">
+            <p>Un café fuerte y robusto, perfecto para los amantes del café intenso.</p>
+            <h2><p class="precio">120.000 COP </p></h2>
+            <button class="boton-comprar">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto" data-nombre="mandil de barista" data-precio="110.000">
+            <h3>Mandil de barista</h3>
+            <img src="https://i.pinimg.com/236x/2a/3d/6b/2a3d6b98a34566840a26462ed3314cb2.jpg"alt="mandil" width="300" heigth="300">
+            <p>Dril con terminados en cuerina </p>
+            <h2><p class="precio">$110.000</p></h2>
+            <button class="boton-comprar">Agregar al Carrito</button>
+        </div>
+
+        <h2>Carrito de Compras</h2>
+        <div id="carrito">
+            <ul id="lista-carrito"></ul>
+            <p id="total">Total: $0.00</p>
+            <button id="comprar">Comprar Ahora</button>
+        </div>
+
+        <audio id="musica" loop>
+            <source src="ruta/a/tu/musica.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+        <button id="toggle-music">Reproducir/Pausar Música</button>
+    </main>
+
+    <footer>
+        <p>&copy;Síguenos en instagram @camelliahouseofcoffe</p>
+        <p>&copy; Derechos reservados para camellia</p>
+    </footer>
+
+</body>
+</html>
